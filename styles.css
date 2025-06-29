@@ -213,7 +213,7 @@ article p{
 }
 
 article span{
-  font-family: "Gloria Hallelujah", "sefif";
+  font-family: "Gloria Hallelujah", "serif";
   color: var(--secondary);
   margin: 0 0.3em;
 }
@@ -221,6 +221,12 @@ article span{
 article .big{
   font-size: 1.5em;
   font-weight: 700;
+}
+
+article .super{
+  position: absolute;
+  font-size: 0.7em;
+  transform: translateY(-80%) translateX(-55%);
 }
 
 article h3 {
@@ -244,6 +250,10 @@ article li{
 
 ul.masonry-grid{
   columns: 32ch;
+}
+
+li img{
+  width: 100%;
 }
 
 .slider__wrapper{
